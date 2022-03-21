@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Food Store</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<header id="header" class="header">
+		<div class="header__container">
+			<a id="header__logo" href="index.html" class="header__logo">
+				<img src="img/h_logo.png" alt="">
+			</a>
+			<div class="header__menu menu">
+				<div class="menu__icon">
+					<span></span>
+				</div>
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li>
+							<a href="index.html" class="menu__link sub1">Меню</a>
+							<ul class="menu__sub-list sub-one">
+								<li>
+									<a href="index.html" class="menu__link sub1">Меню</a>
+								</li>
+								<li>
+									<a href="" class="menu__sub-link">
+										<img src="img/m1.png" class="men-av">
+									</a>
+									<a href="" class="menu__sub-link s_q">Супы</a>
+								</li>
+								<li>
+									<a href="" class="menu__sub-link">
+										<img src="img/m2.png" class="men-av">
+									</a>
+									<a href="" class="menu__sub-link s_q">Хачапури</a>
+								</li>
+								<li>
+									<a href="" class="menu__sub-link">
+										<img src="img/m3.png" class="men-av">
+									</a>
+									<a href="" class="menu__sub-link s_q">Холодные закуски</a>
+								</li>
+								<li>
+									<a href="" class="menu__sub-link">
+										<img src="img/m4.png" class="men-av">
+									</a>
+									<a href="" class="menu__sub-link s_q">Хинкали</a>
+								</li>
+								<li>
+									<a href="" class="menu__sub-link">
+										<img src="img/m5.png" class="men-av">
+									</a>
+									<a href="" class="menu__sub-link s_q">Шашлык</a>
+								</li>
+								<li>
+									<a href="" class="menu__sub-link">
+										<img src="img/m6.png" class="men-av">
+									</a>
+									<a href="" class="menu__sub-link s_q">Соусы</a>
+								</li>
+								<li>
+									<a href="" class="menu__sub-link">
+										<img src="img/m7.png" class="men-av">
+									</a>
+									<a href="" class="menu__sub-link s_q">Салаты</a>
+								</li>
+								<li>
+									<a href="" class="menu__sub-link">
+										<img src="img/m9.png" class="men-av">
+									</a>
+									<a href="" class="menu__sub-link s_q">Горячие блюда</a>
+								</li>
+								<li>
+									<a href="" class="menu__sub-link">
+										<img src="img/m10.png" class="men-av">
+									</a>
+									<a href="" class="menu__sub-link s_q">Гранир</a>
+								</li>
+								<li>
+									<a href="" class="menu__sub-link">
+										<img src="img/m11.png" class="men-av">
+									</a>
+									<a href="" class="menu__sub-link s_q">Десерты</a>
+								</li>
+								<li>
+									<a href="" class="menu__sub-link">
+										<img src="img/m12.png" class="men-av">
+									</a>
+									<a href="" class="menu__sub-link s_q">Напитки</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="pageOffer.html" class="menu__link m_q">Доставка</a>
+						</li>
+						<li>
+							<a href="pageOplata.html" class="menu__link m_q">Оплата</a></li>
+						<li>
+							<a data-goto=".section_4" href="#" class="menu__link m_q">Бронь стола</a></li>
+						</li>
+						<li>
+							<a href="tel:+78312826000" class="menu__link menu__phone">
+								<img src="img/h_phone.png" alt="Phone" class="img__xbox-link">
+							</a>
+							<a href="tel:+78312826000" class="menu__link">+7 (831) 282-60-00</a>
+						</li>
+						<li>
+							<a href="#popup" class="menu__link menu__av">
+								<img src="img/h_ava.png" alt="Avatar" class="img__xbox-link">
+							</a>
+						</li>
+						<li>
+							<a href="#" class="menu__link menu__ba">
+								<img src="img/h_basket.png" alt="Basket" class="img__xbox-link">
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div id="popup" class="popup">
+		<a href="#header" class="popup__area"></a>
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="##" class="popup__close">
+					<img src="img/x.png" alt="X" class="pop-x">
+				</a>
+				<div class="popup__img">
+					<img src="img/popup.png" alt="Ava" class="pop-img">
+				</div>
+				<div class="popup__title">Войти в личный кабинет</div>
+				<div class="popup__form">
+					<form action="action_page.php">
+						<div class="form__cont">
+							<input type="text" placeholder="Телефон" name="tel" required>
+							 <input type="password" placeholder="Пароль" name="psw" required>
+						</div>
+					</form>
+				</div>
+				<div class="popup__pass">
+					<a href="#" class="pop__pass">Забыли пароль?</a>
+				</div>
+				<div class="pop__button">
+					<a href="#" class="pop__but">Войти</a>
+				</div>
+				<div class="popup__footer">
+					<div class="pop__text">Впервые у нас?</div>
+					<a href="#popup2" class="pop__link">Зарегистрироваться</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div id="popup2" class="popup">
+		<a href="#header" class="popup__area"></a>
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="##" class="popup__close">
+					<img src="img/x.png" alt="X" class="pop2-x">
+				</a>
+				<div class="popup__img">
+					<img src="img/popup.png" alt="Ava" class="pop-img">
+				</div>
+				<div class="popup__title">Регистрация</div>
+				<div class="popup__form">
+					<form action="action_page.php">
+						<div class="form__cont">
+							<input type="text" placeholder="Телефон" name="tel" required>
+							 <input type="password" placeholder="Пароль" name="psw" required>
+							  <input type="password" placeholder="Подвтердите пароль" name="psw" required>
+							 <div class="rButs">
+							 	<div class="rBut1">
+								 	 <input class="custom-radio" name="sogl" type="checkbox" id="radioButton1">
+								  	<label for="radioButton1" class="rb1">Хочу получать выгодные предложения от магазина</label>
+								 </div>
+								 <div class="rBut2">
+								 	<input class="custom-radio" name="color" type="checkbox" checked id="radioButton2">
+								    <label for="radioButton2" class="rb2">Принимаю  условия <a href="#" class="rb">Пользовательского соглашения, Политики конфиденциальности</a></label>
+								 </div>
+							 </div>
+						</div>
+					</form>
+				</div>
+				<div class="pop__button">
+					<a href="#" class="pop__but">Зарегистрироваться</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="top">
+		<div class="wrapper">
+			<div class="top__main">
+				<div class="top__flexs">
+					<div class="top-left">
+						<h1 class="top__h">Подарок на первый заказ.</h1>
+				 		<p class="top__t">Получите 500 рублей за подписку на рассылку</p>
+						<div class="top__button">
+							<a href="#" class="top__but-link">Подписаться</a>
+						</div>
+					</div>
+					<div class="top-right">
+						<img src="img/top.png" alt="" class="top-r-img">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="slider__menu">
+		<div class="wrapper">
+			<div class="slider-bludes">
+				<div class="slide-bl">
+					<a  href="#tab_01" class="slide-b1-link">Супы</a>
+				</div>
+				<div class="slide-bl">
+					<a href="#tab_02" class="slide-b1-link">Хачапури</a>
+				</div>
+				<div class="slide-bl">
+					<a href="#tab_03" class="slide-b1-link">Хинкали</a>
+				</div>
+				<div class="slide-bl">
+					<a href="#tab_04" class="slide-b1-link">Шашлык</a>
+				</div>
+				<div class="slide-bl">
+					<a href="#tab_05" class="slide-b1-link">Соусы</a>
+				</div>
+				<div class="slide-bl">
+					<a href="#tab_06" class="slide-b1-link">Салаты</a>
+				</div>
+				<div class="slide-bl">
+					<a href="#tab_07" class="slide-b1-link">Горячие блюда</a>
+				</div>
+				<div class="slide-bl">
+					<a href="#tab_08" class="slide-b1-link">Гарнир</a>
+				</div>
+				<div class="slide-bl">
+					<a href="#tab_09" class="slide-b1-link">Десерты</a>
+				</div>
+				<div class="slide-bl">
+					<a href="#tab_10" class="slide-b1-link">Напитки</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="products">
+		<div class="wrapper">
+			<div class="product__h">
+				Все товары
+			</div>
+		</div>
+			<div class="product__wrapper">
+				<div class="products__flex">
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name"><a href="pageTovar.html" class="product__name">Голень Говядины</a>
+						</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+					<div class="product_f">
+						<div class="product__img-f">
+							<img src="img/product.png" alt="product" class="product__img">
+						</div>
+						<div class="product__name">Голень Говядины</div>
+						<div class="product__des">
+							Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.
+						</div>
+						<div class="product__stars">
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star.png" alt="" class="pr-img-star">
+							</div>
+							<div class="product__star">
+								<img src="img/star2.png" alt="" class="pr-img-star">
+							</div>
+						</div>
+						<div class="cena__ves">
+							<div class="cena">1 050 ₽/кг</div>
+							<div class="ves">За 500гр.</div>
+						</div>
+						<div class="button__product">
+							<a href="#" class="button__product-link">В корзину</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="center">
+				<div class="pagination">
+					<ul>
+						<!--<li class="btn prev" href="#">
+							<img src="img/pageprev.png" alt="" class="pag__prev">
+						</li> -->
+						<li class="numb active" href="#">1</li>
+						<li class="numb" href="#">2</li>
+						<li class="numb" href="#">3</li>
+						<li class="numb" href="#">4</li>
+						<li class="dots" href="#">...</li>
+					 	<li class="numb" href="#">8</li>
+						<li class="btn next" href="#">
+						  	<img src="img/pagnext.png" alt="" class="pag__next">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="video-section">
+		<div class="wrapper__video">
+		    <video muted poster="img/stack.png" class="video">
+		        <source src="video/video.mp4" type="video/mp4" />
+		    </video>
+		  <div class="playpause"></div>
+		</div>
+	</section>
+
+	<section class="transfer">
+		<div class="wrapper">
+			<div class="transfers__flex">
+				<div class="transfer__flex">
+					<div class="transfer__h">
+						Бесплатная доставка по Москве и Области от 2999 RUB!
+					</div>
+					<div class="button__transfer">
+						<a href="#" class="button__tr-link">Оформить</a>
+					</div>
+				</div>
+				<div class="transfer__flex">
+					<img src="img/transfer.png" alt="Transfer" class="transfer__img">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="footers__flex">
+				<div class="footers__flex-left">
+					<div class="foot__flex_n1">
+						<div class="foot-n1-l">
+							<div class="n1__h">Бесплатный звонок по РФ</div>
+						    	<div class="n1__t">
+								<a href="tel:+78312826000" class="n1__t-link">+7 (831) 282-60-00</a>
+							</div>
+						</div>
+						<div class="foot-n1-r">
+							<div class="n1__h">Для приема заказов</div>
+							<div class="n1__t">
+								<a href="tel:+79040664685" class="n1__t-link">+7 (904) 066-46-85</a>
+							</div>
+						</div>
+					</div>
+					<div class="foot__flex_n2">
+						<div class="n2__t">График работы по будням с 9:00 до 18:00</div>
+						<div class="n2__email">
+							<a href="Email:info@.ru" class="email-link">Email: info@.ru</a>
+						</div>
+						<div class="n2__support">
+							<a href="pageSupport.html" class="support-link">Поддержка</a>
+						</div>
+					</div>
+					<div class="foot__flex_n3">
+						<div class="n3__t">©2020. Пиросмани</div>
+						<div class="n3__t">
+							<a href="#" class="n3__link1">Условия и соглашения</a>
+						</div>
+						<div class="n3__t">
+							<a href="#" class="n3__link2">Политика конфиденциальности</a>
+						</div>
+					</div>
+				</div>
+				<div class="footers__flex-right">
+					<div class="foot__flex_m1">
+						<div class="foot__soc">
+							<a href="#" class="foot__soc-link">
+								Мы в вконтакте >
+							</a>
+						</div>
+						<div class="foot__soc">
+							<a href="#" class="foot__soc-link">
+								Мы в instagram >
+							</a>
+						</div>
+					</div>
+					<div class="foot__flex_m2">
+						<div class="foot__ava">
+							<a href="#" class="foot__ava-link">
+								<img src="img/footer_ava.png" alt="ava" class="f__ava">
+							</a>
+						</div>
+						<div class="foot__sign">
+							<a href="#popup" class="f-sign__link">
+								Войти
+							</a>
+						</div>
+						<div class="footp">/</div>
+						<div class="foot__reg">
+							<a href="#popup2" class="f-reg__link">
+								Регистрация
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
